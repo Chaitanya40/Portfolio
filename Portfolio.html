@@ -1,11 +1,6 @@
 <html>
   <head>
     <title>My Profile</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
-    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
   </head>
   <body>
     <header class="">
@@ -14,11 +9,11 @@
     <div class="container-fluid">
       <ul class="nav nav-pills">
         <li><a href="#">Chaitanya Allu</a></li>
-        <li class="pull-right"><a href="#">Contact</a></li>
-        <li class="pull-right"><a href="#">Portfolio</a></li>
-        <li class="pull-right"><a href="#">About me</a></li>
+        <li class="pull-right"><a href="#contact">Contact</a></li>
+        <li class="pull-right"><a href="#aboutme">Portfolio</a></li>
+        <li class="pull-right"><a href="#portfolio">About me</a></li>
       </ul>
-      <div class="pageOne">
+      <div class="pageOne" id="contact">
         <div class="block text-center">
           <h1 class="">Chaitanya Allu</h1>
           <p class="">Always learning, Always dreaming</p>
@@ -30,17 +25,43 @@
           <a class="btn btn-primary" href="#">Facebook</a>
         </div>
       </div>
-      <div class="pageTwo">
+      <div class="pageTwo" id="aboutme">
         <div class="row">
-            <div class="col-md-3">
+            <div class="col-md-6" id="myDescription">
               <h2 class="text-center">Chaitanya Allu</h1>
-              <p class="text-center">I am a web developer by profession. I want to be an agricultural entrepreneur some day and prove to the world that agriculture can be profitable too.</p>
+              <p class="text-center">I am a web developer by profession. I want to be an agricultural entrepreneur some day and prove to the world that agriculture can be profitable too. Currently developing my development skills and looking for opportunities.</p>
             </div>
-            <div class="col-md-6">
-              <img src="">
+            <div class="col-md-6" id="myPhoto">
+              <img class="img-circle" src="https://lh3.googleusercontent.com/--CJsF8vEUqg/AAAAAAAAAAI/AAAAAAAAADY/YGMacIjASXg/s120-c/photo.jpg">
             </div>
         </div>
     </div>
+      <div class="pageThree" id="portfolio">
+           <div class="row">
+              <div class="col-lg-6 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="">
+                    <img class="img-responsive" src="https://images.unsplash.com/photo-1465152251391-e94453ee3f5a?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=2f3699fc4dbc682fbecdc4fa4d5f6cad" alt="">
+                </a>
+              </div>
+              <div class="col-lg-6 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="">
+                    <img class="img-responsive" src="https://images.unsplash.com/photo-1465152251391-e94453ee3f5a?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=2f3699fc4dbc682fbecdc4fa4d5f6cad" alt="">
+                </a>
+              </div>
+              <div class="col-lg-6 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="">
+                    <img class="img-responsive" src="https://images.unsplash.com/photo-1465152251391-e94453ee3f5a?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=2f3699fc4dbc682fbecdc4fa4d5f6cad" alt="">
+                </a>
+             </div>
+             <div class="col-lg-6 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="">
+                    <img class="img-responsive" src="https://images.unsplash.com/photo-1465152251391-e94453ee3f5a?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=2f3699fc4dbc682fbecdc4fa4d5f6cad" alt="">
+                </a>
+              </div>
+        </div>
+    </div>
+    </div>
+    <footer class="text-center">Written and coded by <strong>Chaitanya</strong> </footer>
   </body>
   
 
